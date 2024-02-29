@@ -1,24 +1,25 @@
-# Dexter HD/HDI
-For older Dexter 1, see the [Main files](https://github.com/HaddingtonDynamics/Dexter/tree/master)
-
-Main website:<br>
-http://hdrobotic.com/
-
-See the folders above for source documents on each part of Dexter, or browse the [Wiki](https://github.com/HaddingtonDynamics/Dexter/wiki) to learn how it works.
-
-## Build Summaries
-
-Dexter HD: 
-- Assembly [pictures](https://photos.app.goo.gl/jGmsnxtytvdYhgUi8) and [videos](https://www.youtube.com/watch?v=AYD2PSslqfU&list=PLEJQ7hsad17fC2tqTDGNFI_LPk1kX2aE6) and [build notes](https://github.com/HaddingtonDynamics/Dexter/wiki/HD-Build-Notes)
-- [BOM](https://docs.google.com/spreadsheets/d/1tPxJF4zsaoBsXhz2b6sy5hTPxMfhjwwAfAAC_93CtzM/edit?usp=sharing) (see the "Common" tab)
-- [STL files](https://www.thingiverse.com/thing:3206154) and [Update](https://www.thingiverse.com/thing:3781990) Note: The parts printed with continuous carbon fiber re-enforcement, e.g. printed on the Mark 2 rather than the Onyx One, have "CF" in their name)
-- [Dexter HD Kinematic Model](https://a360.co/3eoAQqo) - Barebones Fusion 360 Model of Dexter HD. Can be exported as: Fusion 360 Archive, Inventor 2019, IGES, SAT, SMT, STEP, DWG, DXF, STL, FBX, SketchUp, OBJ.
-- [Tool Interface](https://a360.co/2V8DpoO) - Fusion 360 model of tool interface that is compatible with Dexter 1, HD, and HDI. You can download files in multiple formats.
-
-Dexter HDI: 
-- Assembly, BOM, STL files not yet released
-- [kinematic model/skin](https://a360.co/2Zfxktd) for simulation or printing skins for your unskinned HDI.
-
-See also:
-- Unity visualization and control:<br>
-https://github.com/zalo/Dexter
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">德克斯特 HD/HDI</font></font></h1><a id="user-content-dexter-hdhdi" class="anchor-element" aria-label="永久链接：Dexter HD/HDI" href="#dexter-hdhdi"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于旧版 Dexter 1，请参阅</font></font><a href="https://github.com/HaddingtonDynamics/Dexter/tree/master"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主文件</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主要网站： http: </font></font><br>
+<a href="http://hdrobotic.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//hdrobotic.com/</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅上面的文件夹以获取有关 Dexter 各个部分的源文档，或浏览</font></font><a href="https://github.com/HaddingtonDynamics/Dexter/wiki"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Wiki</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以了解其工作原理。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构建摘要</font></font></h2><a id="user-content-build-summaries" class="anchor-element" aria-label="永久链接：构建摘要" href="#build-summaries"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">德克斯特高清：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组装</font></font><a href="https://photos.app.goo.gl/jGmsnxtytvdYhgUi8" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">图片</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://www.youtube.com/watch?v=AYD2PSslqfU&amp;list=PLEJQ7hsad17fC2tqTDGNFI_LPk1kX2aE6" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">视频</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以及</font></font><a href="https://github.com/HaddingtonDynamics/Dexter/wiki/HD-Build-Notes"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构建说明</font></font></a></li>
+<li><a href="https://docs.google.com/spreadsheets/d/1tPxJF4zsaoBsXhz2b6sy5hTPxMfhjwwAfAAC_93CtzM/edit?usp=sharing" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">BOM</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（参见“常用”选项卡）</font></font></li>
+<li><a href="https://www.thingiverse.com/thing:3206154" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">STL 文件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://www.thingiverse.com/thing:3781990" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">说明：用连续碳纤维加固打印的部件，例如打印在 Mark 2 而不是 Onyx One 上，其名称中带有“CF”）</font></font></li>
+<li><a href="https://a360.co/3eoAQqo" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dexter HD 运动学模型</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- Dexter HD 的 Barebones Fusion 360 模型。</font><font style="vertical-align: inherit;">可以导出为：Fusion 360 Archive、Inventor 2019、IGES、SAT、SMT、STEP、DWG、DXF、STL、FBX、SketchUp、OBJ。</font></font></li>
+<li><a href="https://a360.co/2V8DpoO" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工具接口</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- Fusion 360 模型的工具接口，与 Dexter 1、HD 和 HDI 兼容。</font><font style="vertical-align: inherit;">您可以下载多种格式的文件。</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">德克斯特人类发展指数：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">装配、BOM、STL 文件尚未发布</font></font></li>
+<li><a href="https://a360.co/2Zfxktd" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于模拟的运动模型/皮肤</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或为未蒙皮的 HDI 打印皮肤。</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">也可以看看：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Unity可视化和控制： https: </font></font><br>
+<a href="https://github.com/zalo/Dexter"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/zalo/Dexter</font></font></a></li>
+</ul>
+</article></div>
